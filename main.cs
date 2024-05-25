@@ -57,6 +57,7 @@ namespace PersonNameSpace {// open personNameSpace
             foreach (var person in people){// open foreach loop
               // call the GetOutput() to preint out the information for each person
                 Console.WriteLine(person.GetPersonalInfo());
+                Console.WriteLine("Test Passed");
                 Console.WriteLine();// print a blank line after each itteration of the foreach loop
             }// close foreach loop
         }// close main
